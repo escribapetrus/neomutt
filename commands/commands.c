@@ -98,7 +98,7 @@ const struct Command CommandsCommands[] = {
         "configuration.html#source" },
   { "theme", CMD_THEME, parse_theme,
         N_("Load a color theme"),
-        N_("theme [ <name> ]"),
+        N_("theme [ <name> | list ]"),
         "configuration.html#theme" },
   { "subscribe", CMD_SUBSCRIBE, parse_subscribe,
         N_("Add address to the list of subscribed mailing lists"),
